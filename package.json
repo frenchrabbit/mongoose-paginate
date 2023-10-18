@@ -1,0 +1,51 @@
+{
+  "name": "@frabbit/mongoose-paginate",
+  "version": "7.0.0",
+  "packageManager": "npm@9.6.7",
+  "description": "Mongoose paginate plugin with full typescript support and support for latest mongoose package and types.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/frenchrabbit/mongoose-paginate#readme",
+  "bugs": {
+    "url": "https://github.com/frenchrabbit/mongoose-paginate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenchrabbit/mongoose-paginate.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint .",
+    "lint:fix": "npm run lint --fix",
+    "release": "npm publish",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@frabbit/eslint-config": "^1.5.10",
+    "@frabbit/prettier-config": "^2.0.0",
+    "@types/node": "^20.8.6",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.51.0",
+    "mongoose": "^7.6.3",
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "prettier": "@frabbit/prettier-config"
+}
