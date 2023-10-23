@@ -36,8 +36,13 @@
   "devDependencies": {
     "@frabbit/eslint-config": "^1.5.10",
     "@frabbit/prettier-config": "^2.0.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.1",
+    "@semantic-release/npm": "^11.0.0",
     "@types/node": "^20.8.6",
     "bumpp": "^9.2.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.51.0",
     "mongoose": "^7.6.3",
     "prettier": "^3.0.3",
@@ -47,11 +52,5 @@
   "engines": {
     "node": ">=16.14.0"
   },
-  "prettier": "@frabbit/prettier-config",
-  "dependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.1",
-    "@semantic-release/npm": "^11.0.0"
-  }
+  "prettier": "@frabbit/prettier-config"
 }
