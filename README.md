@@ -94,7 +94,7 @@ npm i -D @frabbit/mongoose-paginate
 ## Usage
 
 ```typescript
-import {mongoosePagination, PaginatedModel, PaginatedResult} from "@frabbit/mongoose-paginate";
+import {mongoosePaginate, PaginatedModel, PaginatedResult} from "@frabbit/mongoose-paginate";
 
 interface Some {
   field: string
@@ -106,7 +106,7 @@ const someSchema = new Schema({
   field: String,
 });
 
-someSchema.plugin(mongoosePagination);
+someSchema.plugin(mongoosePaginate);
 
 const someModel: PaginatedModel<SomeDocument>
 ("Some", someSchema);
