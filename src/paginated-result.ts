@@ -26,11 +26,11 @@ export class PaginatedResult<T> {
   /**
    * has previous page
    */
-  hasPrevPage?: Boolean = false
+  hasPrevPage?: boolean = false
   /**
    * has next page
    */
-  hasNextPage?: Boolean = false
+  hasNextPage?: boolean = false
 
   /**
    * previous page number
