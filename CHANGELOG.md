@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.1.1](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.1.0...v7.1.1) (2023-10-23)
+
+
+### Features
+
+* **ci:** fix release ([134b673](https://github.com/frenchrabbit/mongoose-paginate/commit/134b6735e69a4b1a79d166f1c6731064a104a1a1))
+* **ci:** fix release ([c803d8f](https://github.com/frenchrabbit/mongoose-paginate/commit/c803d8fd698cf21028afeb330c5af1d37a40a652))
+
 # [7.1.0](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.0.0...v7.1.0) (2023-10-23)
 
 
