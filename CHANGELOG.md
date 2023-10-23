@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.2.0](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.1.2...v7.2.0) (2023-10-23)
+
+
+### Features
+
+* add direct skip param ([e4e5747](https://github.com/frenchrabbit/mongoose-paginate/commit/e4e57478fc369948b8e34f480af93944ffffd5e4))
+
 ## [7.1.2](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.1.1...v7.1.2) (2023-10-23)
 
 
