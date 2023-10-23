@@ -19,10 +19,14 @@ export interface PaginationOptions<T> extends PopulateOption {
   /**
    * page number
    */
-  page?: any | undefined
+  page?: number | undefined
 
+  /**
+   * docs skip, overrides page
+   */
+  skip?: number | undefined
   /**
    * Docs per page
    */
-  limit?: any | undefined
+  limit?: number | undefined
 }

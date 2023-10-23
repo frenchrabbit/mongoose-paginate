@@ -21,18 +21,19 @@ function paginateWithDefaults<T>(options?: PaginationOptions<T> | null) {
   const after = options?.after ?? undefined
   const before = options?.before ?? undefined
 
-  const limit =
-    Number.parseInt(options?.limit, 10) > 0
-      ? Number.parseInt(options?.limit, 10)
-      : 0
+  const limit = options?.limit || 0
 
   let page = 1
   let skip = 0
 
-  if (options?.page) {
-    page = Number.parseInt(options?.page, 10)
+  if (options?.skip) {
+    skip = options.skip
+    page = (skip / limit) + 1
+  } else if (options?.page) {
+    page = options?.page
     skip = (page - 1) * limit
   }
+
   return {
     key,
     after,
