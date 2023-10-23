@@ -1,6 +1,6 @@
 {
   "name": "@frabbit/mongoose-paginate",
-  "version": "7.0.5",
+  "version": "7.1.0",
   "packageManager": "npm@9.6.7",
   "description": "Mongoose paginate plugin with full typescript support and support for latest mongoose package and types.",
   "type": "module",
@@ -47,5 +47,11 @@
   "engines": {
     "node": ">=16.14.0"
   },
-  "prettier": "@frabbit/prettier-config"
+  "prettier": "@frabbit/prettier-config",
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.1",
+    "@semantic-release/npm": "^11.0.0"
+  }
 }
