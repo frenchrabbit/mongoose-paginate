@@ -16,7 +16,7 @@ export class PaginatedResult<T> {
   /**
    * total pages count
    */
-  totalPages?: number = undefined
+  totalPages: number = 1
 
   /**
    * items per page
@@ -45,6 +45,6 @@ export class PaginatedResult<T> {
    * The starting index/serial/chronological number of first document in current page.
    * (Eg: if page=2 and limit=10, then pagingCounter will be 11)
    */
-  pagingCounter?: number = undefined
+  pagingCounter: number = 0
 
 }
