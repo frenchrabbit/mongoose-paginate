@@ -11,6 +11,10 @@ import {
 import { PaginatedResult } from './paginated-result'
 import { type PaginationOptions } from './pagination-options'
 
+export * from './paginated-model'
+export * from './paginated-result'
+export * from './pagination-options'
+
 function paginateWithDefaults<T>(options?: PaginationOptions<T> | null) {
   const key = options?.key ?? '_id'
 

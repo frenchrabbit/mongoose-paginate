@@ -5,8 +5,6 @@ Mongoose paginate plugin with full typescript support and support for latest mon
 Main idea is to add pagination options to `find()` and `aggregate()` without duplicating other params.
 Mongoose seems to be adding more typescript support, so old pagination plugins gets old.
 
-[Legacy Version](https://github.com/sxzz/mongoose-paginate-legacy)
-
 ## Features
 
 Major version is same as mongoose version
