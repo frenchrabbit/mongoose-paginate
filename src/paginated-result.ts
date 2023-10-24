@@ -47,4 +47,7 @@ export class PaginatedResult<T> {
    */
   pagingCounter: number = 0
 
+  constructor(data: PaginatedResult<T>) {
+    Object.assign(this, data)
+  }
 }
