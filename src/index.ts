@@ -28,7 +28,7 @@ function paginateWithDefaults<T>(options?: PaginationOptions<T> | null) {
 
   if (options?.skip) {
     skip = options.skip
-    page = (skip / limit) + 1
+    page = Math.floor((skip / limit) + 1)
   } else if (options?.page) {
     page = options?.page
     skip = (page - 1) * limit
