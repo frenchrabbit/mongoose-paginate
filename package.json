@@ -1,6 +1,6 @@
 {
   "name": "@frabbit/mongoose-paginate",
-  "version": "7.2.5",
+  "version": "7.2.6",
   "packageManager": "npm@9.6.7",
   "description": "Mongoose paginate plugin with full typescript support and support for latest mongoose package and types.",
   "type": "module",

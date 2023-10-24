@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.2.6](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.2.5...v7.2.6) (2023-10-24)
+
+
+### Bug Fixes
+
+* fix paging when using skip. ([b6dc194](https://github.com/frenchrabbit/mongoose-paginate/commit/b6dc194ff77ca2e9d1d2b2e5effc3dd538dd327e))
+
 ## [7.2.5](https://github.com/frenchrabbit/mongoose-paginate/compare/v7.2.4...v7.2.5) (2023-10-24)
 
 
