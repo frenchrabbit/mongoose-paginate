@@ -44,7 +44,7 @@
     "bumpp": "^9.2.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "eslint": "^8.51.0",
-    "mongoose": "^7.6.3",
+    "mongoose": "^8.0.0",
     "prettier": "^3.0.3",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
