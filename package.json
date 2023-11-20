@@ -46,7 +46,7 @@
     "eslint": "^8.51.0",
     "mongoose": "^7.6.3",
     "prettier": "^3.0.3",
-    "tsup": "^7.2.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.2.2"
   },
   "engines": {
